@@ -1,21 +1,21 @@
 // Giorni di "vacanza" in Veneto
 const vacanzeVeneto = {
-    0: [1, 2, 3, 4, 5, 6, 7],
-    1: [20, 21, 22],
-    2: [],
-    3: [6, 7, 8, 9, 24, 25],
+    0: [1, 2, 3, 4, 5, 6],
+    1: [12, 13, 14],
+    2: [28, 29, 30, 31],
+    3: [1, 2, 25, 26, 27],
     4: [1],
-    5: [2, 3],
+    5: [2],
     6: [],
     7: [],
     8: [],
-    9: [31],
+    9: [],
     10: [1],
-    11: [8, 9, 10, 24, 25, 26, 27, 28, 29, 30, 31],
+    11: [8, 9, 23, 24, 25, 26, 27, 28, 29, 30, 31],
 }
 
 // Data finale
-const countdownDate = new Date("Jun 10, 2023 13:15:00");
+const countdownDate = new Date("Jun 8, 2024 13:15:00");
 
 // Aggiorna il countdown ogni secondo
 var countdown = setInterval(function () {
