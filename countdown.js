@@ -107,5 +107,6 @@ var countdown = setInterval(function () {
     if (distance < 0) {
         clearInterval(x);
         document.getElementById("countdown").innerHTML = "Vacanze 🎉";
+document.getElementById("countdown_lavorativi").innerHTML = "Vacanze 🎉";
     }
 }, 1000);
