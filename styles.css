@@ -1,52 +1,53 @@
 .header {
-    font-family: 'Helvetica', 'Arial', sans-serif;
-    font-weight: bold;
-    font-size: x-large;
-    text-align: center;
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-weight: bold;
+  font-size: larger;
+  text-align: center;
 }
 
 .countdown {
-    font-family: 'Helvetica', 'Arial', sans-serif;
-    font-size: x-large;
-    text-align: center;
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: larger;
+  text-align: center;
 }
 
 #container {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 hr.divider {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: auto;
-    padding: 0;
-    width: 80%;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: auto;
+  padding: 0;
+  width: 80%;
 }
 
 table,
 th,
 td {
-    font-family: 'Helvetica', 'Arial', sans-serif;
-    margin: auto;
-    font-size: larger;
-    border-collapse: collapse;
-    border-right: 1px solid #ccc;
-    border-left: 1px solid #ccc;
-    text-align: center;
-    height: 3.5vh;
+  font-family: "Helvetica", "Arial", sans-serif;
+  margin: auto;
+
+  max-width: 28vw;
+  border-collapse: collapse;
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  text-align: center;
+  height: 3.5vh;
 }
 
 tr {
-    border: none;
+  border: none;
 }
 
 th {
-    width: 15%;
+  width: 15%;
 }
