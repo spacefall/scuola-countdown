@@ -120,7 +120,7 @@ var countdown = setInterval(function () {
 }, 1000);
 
 // Data natale
-const countdownDateXmas = new Date("Dec 25, 2023 00:00:00");
+const countdownDateXmas = new Date("Dec 25, 2024 00:00:00");
 
 // Aggiorna il countdown ogni secondo
 var countdownXmas = setInterval(function () {
